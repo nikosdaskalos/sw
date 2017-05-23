@@ -65,7 +65,7 @@
 
 Παρακάτω αναφέρονται οι αλλαγές που έχουν γίνει ακολουθώντας τα παραπάνω δεδομένα:
 
-* Αρχικά έχει προστεθεί **ήχος** στην διάρκεια του παιχνιδιού αλλά και όταν το αυτοκίνητο τρώει κάποιο dot. Επίσης έχει προστέθει ήχος όταν τρώγονται και τα νέα αντικείμενα(κέρματα, φράουλες). Ο ήχος που παίζει κατά την διάρκεια όλου του παιχνιδιού είναι το αρχείο "pacman_ringtone.mp3" αντίστοιχα για τα dots και για τα νέα αντικείμενα οι ήχοι "pacman_chomp.wav" και "pacman_eatfruit.wav". Αξίζει να αναφερθεί ότι επειδή είναι πολύ κοντά τα αντικείμενα το ένα με το άλλο, σε πολλές περιπτώσεις ο ήχος γίνεται συνεχόμενος και σε κάποια σημεία ο ένας ήχος επικαλύπτει τον άλλο.Παρακάτω φαίνονται τα νέα αντικείμενα που προστέθηκαν.Οι εικόνες πάρθηκαν απο απλές αναζητήσεις στο Google. [Πηγή ήχων](http://www.classicgaming.cc/classics/pac-man/sounds).
+* Αρχικά έχει προστεθεί **ήχος** στην διάρκεια του παιχνιδιού αλλά και όταν το αυτοκίνητο τρώει κάποιο dot. Επίσης έχει προστέθει ήχος όταν τρώγονται και τα νέα αντικείμενα(κέρματα, φράουλες). Ο ήχος που παίζει κατά την διάρκεια όλου του παιχνιδιού είναι το αρχείο "pacman_ringtone.mp3" αντίστοιχα για τα dots και για τα νέα αντικείμενα οι ήχοι "pacman_chomp.wav" και "pacman_eatfruit.wav". Αξίζει να αναφερθεί ότι επειδή είναι πολύ κοντά τα αντικείμενα το ένα με το άλλο, σε πολλές περιπτώσεις ο ήχος γίνεται συνεχόμενος και σε κάποια σημεία ο ένας ήχος επικαλύπτει τον άλλο.Παρακάτω φαίνονται τα νέα αντικείμενα που προστέθηκαν.Οι εικόνες πάρθηκαν απο απλές αναζητήσεις στο Google. [Πηγή ήχων](http://www.classicgaming.cc/classics/pac-man/sounds). [Πηγή κέρματος](https://www.google.gr/search?q=coin+cartoon&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwiVr9qiqYbUAhWPa1AKHcgKDncQsAQIJQ&biw=1920&bih=974#tbm=isch&q=coin+cartoon+mario&imgrc=BX9IL_23BHS1kM:). [Πηγή φράουλας](https://www.google.gr/search?q=strawberry+cartoon&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwi9xp6hqYbUAhUDKFAKHepUCI4QsAQIKA&biw=1920&bih=974#imgrc=6MpjWs0vGXBezM:).
 
 ![Screenshot](coin.jpg)          ![Screenshot](str.png)
 
@@ -116,5 +116,20 @@
 
 ## Αναφορές
 
-Αναφορές σχετικά με τις  πηγές των αντικειμένων, των ήχων, του κώδικα και ότι άλλου χρειάστηκε για την υλοποίηση του παιχνιδιού υπάρχουν αναλυτικά μέσα στα αναλυτικά παραδοτέα παραπάνω με απευθείας link στην πηγή. Σε αυτό το κεφάλαιο δίνονται τα link απο τα αρχεία που έχουν αλλαχθεί στο προσωπικό αποθετήριο του κώδικα.
+Αναφορές σχετικά με τις  πηγές των αντικειμένων, των ήχων, του κώδικα και ότι άλλου χρειάστηκε για την υλοποίηση του παιχνιδιού υπάρχουν αναλυτικά μέσα στα αναλυτικά παραδοτέα παραπάνω με απευθείας link στην πηγή. Σε αυτό το κεφάλαιο δίνονται τα link απο τα αρχεία που έχουν αλλαχθεί στο προσωπικό αποθετήριο του κώδικα. Έχουν αλλαχθεί και προστεθεί τα:
 
+*  [Βασικό HTML](https://github.com/nikosdaskalos/pacman/blob/master/pacman.html) για αλλαγές στον κώδικα.
+*  [Βασικό pacman-map.json](https://github.com/nikosdaskalos/pacman/blob/master/assets/pacman-map.json) για την επεξεργασία της πίστας.
+*  [Βασικό png εικόνων](https://github.com/nikosdaskalos/pacman/blob/master/assets/pacman-tiles.png) για εισαγωγή νέων αντικειμένων στην πίστα.
+*  [Νέο pacman](https://github.com/nikosdaskalos/pacman/blob/master/assets/pacman.png) αντικαθιστά το παλιό.
+*  [Νέο dot](https://github.com/nikosdaskalos/pacman/blob/master/assets/dot.jpg) αντικαθιστά τα αρχικά dots.
+*  [Εισαγωγή Φράουλας](https://github.com/nikosdaskalos/pacman/blob/master/assets/str.png) ως νέο αντικείμενο.
+*  [Εισαγωγή Κέρματος](https://github.com/nikosdaskalos/pacman/blob/master/assets/coin.jpg) ως νέο αντικείμενο.
+*  [Logo Pacman](https://github.com/nikosdaskalos/pacman/blob/master/assets/Pac-man-50b7b12e49245.png) πάνω αριστερά.
+*  [Logo Phaser](https://github.com/nikosdaskalos/pacman/blob/master/assets/2af2c4f1310cde76dc1008d8fa60350e.jpg) πάνω αριστερά.
+*  [Ήχος στο υπόβαθρο](https://github.com/nikosdaskalos/pacman/blob/master/assets/pacman_beginning.wav) κατά το παίξιμο.
+*  [Ήχος κατά το φάγωμα](https://github.com/nikosdaskalos/pacman/blob/master/assets/pacman_chomp.wav) των dots.
+*  [Ήχος κατά το φάγωμα](https://github.com/nikosdaskalos/pacman/blob/master/assets/pacman_eatfruit.wav) των νέων αντικειμένων.
+*  To [maze.json](https://github.com/nikosdaskalos/pacman/blob/master/assets/maze.json) δεν πειράχθηκε καθόλου.
+
+Επίσης υπάρχουν και κάποια ακόμα αρχεία στον φάκελο assets τα οποίο βέβαια δεν χρησιμοποιήθηκαν στον παιχνίδι καθόλου οπότε και δεν αναφέρονται παραπάνω.
